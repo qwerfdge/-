@@ -1,4 +1,4 @@
-    for (double num : numbers) {
+        for (double num : numbers) {
         if (num < minAbs) {
             minAbs = num;
         }
