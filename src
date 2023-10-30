@@ -1,1 +1,19 @@
+    for (double num : numbers) {
+        if (num < minAbs) {
+            minAbs = num;
+        }
+    }
 
+    if (minAbs == Math.abs(num1)) {
+        System.out.println("Наименьшее число по модулю: " + num1);
+    } else if (minAbs == Math.abs(num2)) {
+        System.out.println("Наименьшее число по модулю: " + num2);
+    } else {
+        System.out.println("Наименьшее число по модулю: " + num3);
+    }
+}
+
+public static void main(String[] args) {
+    double num1 = -5, num2 = 7, num3 = 11;
+    printMinByMagnitude(num1, num2, num3);
+}
